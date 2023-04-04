@@ -1,0 +1,67 @@
+.app {
+  background-color: rgb(3, 41, 83);
+  min-width: 500px;
+  max-width: 30vw;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section-title {
+    color: white;
+    font-size: 36px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-me-content {
+    color: rgb(131, 131, 131);
+    font-size: 20px;
+    margin: 0px;
+}
+
+.about-me-buttons {
+    display: flex;
+    margin-top: 5vh;
+    justify-content: space-evenly;
+}
+
+.about-me-buttons Button {
+    width: 200px;
+}
+
+.about-me-email {
+    border-radius: 8px;
+    font-size: larger;
+}
+
+.about-me-code {
+    border-radius: 8px;
+    font-size: larger;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.section-header {
+    padding-left: 20px;
+}
+
+.section-content {
+    color: rgb(131, 131, 131);
+    padding: 0px 20px;
+}
+
+.proficiencies-table{
+    color: rgb(131, 131, 131);
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+    color: white;
+  }
